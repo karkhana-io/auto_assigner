@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include auto_assigner *.css
+recursive-include auto_assigner *.csv
+recursive-include auto_assigner *.html
+recursive-include auto_assigner *.ico
+recursive-include auto_assigner *.js
+recursive-include auto_assigner *.json
+recursive-include auto_assigner *.md
+recursive-include auto_assigner *.png
+recursive-include auto_assigner *.py
+recursive-include auto_assigner *.svg
+recursive-include auto_assigner *.txt
+recursive-exclude auto_assigner *.pyc
