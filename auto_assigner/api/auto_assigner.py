@@ -29,5 +29,5 @@ def auto_assign(doc,method):
 					new_doc.description = 'Auto assigned'
 					new_doc.reference_type = doc.doctype
 					new_doc.reference_name = doc.name
-					new_doc.insert()
+					new_doc.insert(ignore_permissions = True)
 			break
